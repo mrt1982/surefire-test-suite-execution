@@ -1,11 +1,13 @@
+
+
+   Search for "RUN class example.Test"
+
+
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
 [INFO] Building surefire-test-suite-execution 1.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ surefire-test-suite-execution ---
-[INFO] Deleting /Users/user/projects/surefire-test-suite-execution/target
 [INFO] 
 [INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ surefire-test-suite-execution ---
 [debug] execute contextualize
@@ -21,7 +23,7 @@
 [INFO] skip non existing resourceDirectory /Users/user/projects/surefire-test-suite-execution/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ surefire-test-suite-execution ---
-[INFO] Compiling 3 source files to /Users/user/projects/surefire-test-suite-execution/target/test-classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.10:test (default-test) @ surefire-test-suite-execution ---
 [INFO] Surefire report directory: /Users/user/projects/surefire-test-suite-execution/target/surefire-reports
@@ -30,14 +32,14 @@
  T E S T S
 -------------------------------------------------------
 Running example.TestA
-=== RUN TestA
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+=== RUN class example.TestA
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
 Running example.TestB
-=== RUN TestB
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+=== RUN class example.TestB
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 Running example.TestSuite
-=== RUN TestA
-=== RUN TestB
+=== RUN class example.TestA
+=== RUN class example.TestB
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
 
 Results :
@@ -47,7 +49,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.700s
-[INFO] Finished at: Fri Sep 26 12:13:13 BST 2014
-[INFO] Final Memory: 11M/136M
+[INFO] Total time: 1.302s
+[INFO] Finished at: Fri Sep 26 12:36:26 BST 2014
+[INFO] Final Memory: 9M/136M
 [INFO] ------------------------------------------------------------------------
